@@ -8,7 +8,7 @@
     <h1>KUN YANGILIKLARI:</h1>
     <ul>
         {% for post in object_list %}
-            <li><h1>{{ post.title }}</h1> <br> {{ post.text }}</li>
+            <li><h1>{{ post.title }} ({{ post.muallif }})</h1> <br> {{ post.text }}</li>
         {% endfor %}
     </ul>
 </body>
